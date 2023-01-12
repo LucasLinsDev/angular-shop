@@ -3,7 +3,7 @@ ng serve ngshop
 ng serve admin
 ng g component pages/home-page --project=ngshop
 nx g component shared/header --project-ngshop
-
+npx nx generate @schematics/angular:service services/categories --project=product --no-interactive --dry-run 
 npx nx g @nrwl/workspace:lib ui 
 
 ng genereate @nrwl/angular:component --name=banner --project=ui --style=scss --prefix=ui --selector=banner

@@ -1,1 +1,15 @@
-<p>categories-list works!</p>
+<div class="content">
+  <table>
+    <tr>
+      <a routerLink="form">
+        <button >Add new </button>
+      </a>
+    </tr>
+    <tr *ngFor="let category of categories">
+      <td>{{category.id}}</td>
+      <td>{{category.name}}</td>
+      <td>{{category.icon}}</td>
+    </tr>
+  </table>
+
+</div>

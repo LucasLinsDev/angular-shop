@@ -1,0 +1,22 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="buttons">
+      <button (click)="onSubmit()">Create</button>
+      <button>Cancel</button>
+    </div>
+  </div>
+<form [formGroup]="form">
+  <div class="form">
+    <div class="form-control">
+      <label>Label</label>
+      <input formControlName="name" type="text" placeholder=""/>
+      <small *ngIf="categoryForm.name.invalid && isSubmited">required</small>
+    </div>
+    <div class="form-control">
+      <label>Label</label>
+      <input  formControlName="icon"  type="text" placeholder=""/>
+      <small *ngIf="categoryForm.icon.invalid && isSubmited">required</small>
+    </div>
+  </div>
+</form>
+</div>
