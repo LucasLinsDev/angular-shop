@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@bluebits/product": ["libs/product/src/index.ts"],
       "@bluebits/products": ["libs/products/src/index.ts"],
       "@bluebits/ui": ["libs/ui/src/index.ts"],
       "@bluebits/ui/src/lib/banner": ["libs/ui/src/lib/banner/src/index.ts"],
