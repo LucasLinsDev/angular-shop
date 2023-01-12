@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ShellComponent } from './shared/shell/shell.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ShellComponent } from './shared/shell/shell.component';
     NxWelcomeComponent,
     DashboardComponent,
     ShellComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
